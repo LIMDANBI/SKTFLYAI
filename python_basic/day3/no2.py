@@ -3,7 +3,7 @@ def int_list_input(*pr):
     if(len(pr)==0):
         nums = list(map(int, input().split()))
     else:    
-        nums = list(map(int, input(pr[0]).split())) # need modify
+        nums = list(map(int, input(pr[0]).split()))
     return nums
 
 prompt = input("Input prompt: ") + ": "
