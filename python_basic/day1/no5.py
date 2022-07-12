@@ -2,7 +2,7 @@ scores = input("Scores: ")
 print("********Report********")
 history, math, computation = scores.split()
 total = int(history)+int(math)+int(computation)
-avg = total//3
+avg = round(total/3, 1)
 
 print("History: {:>13}".format(history))
 print("Mathematics: {:>9}".format(math))
