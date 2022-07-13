@@ -1,9 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/hello')
-def helloworld():
-    return 'Hello World'
+@app.route('/hello/<name>')
+def helloworld(name):
+    return 'Hello %s!' % name
 
 @app.route('/ldb')
 def ypjun():
