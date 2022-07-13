@@ -1,0 +1,6 @@
+fname = input("Enter text file name: ")
+word = input("Enter words: ")
+fp = open(fname, 'r')
+cnt = fp.read().count(word)
+print("{} 파일에 '{}' 단어가 {}번 나옵니다.".format(fname, word, cnt))
+fp.close()
