@@ -16,7 +16,7 @@ def hello():
         return render_template('index.html')
     elif request.method == "POST":
         content = request.form['content']
-        font_path = '/workspace/flask/static/NanumGothic.ttf'
+        font_path = '/workspace/wordcloud_web/static/NanumGothic.ttf'
         wordcloud = WordCloud(font_path=font_path, 
                               background_color='white', 
                               width=400, height=400)
@@ -24,7 +24,7 @@ def hello():
         fig = plt.figure(figsize=(6,6))
         plt.imshow(wordcloud)
         plt.axis('off')
-        fig.savefig('/workspace/flask/static/wordcloud.png')
+        fig.savefig('/workspace/wordcloud_web/static/wordcloud.png')
         return render_template('index.html', content=content, time=time.time())
     
     
