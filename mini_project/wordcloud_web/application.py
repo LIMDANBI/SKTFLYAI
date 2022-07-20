@@ -9,7 +9,7 @@ application.config['SECRET_KEY'] = 'dbdbdip'
 
 @application.route("/",  methods=['GET', 'POST'])
 def hello():
-    if session.get('ss_id') == False:
+    if not 'ss_id' in session: 
         return redirect('/login')
     
     if request.method == "GET":
