@@ -4,7 +4,6 @@ import utils
 
 FILE_NAME = "trained.npz"
 
-
 # def check(test, train, train_labels):
 #     ret, result, neighbours, dist = knn.findNearest(test, k=5)
 #     return result
@@ -39,13 +38,11 @@ def get_result(file_name, algorithm):
         result_string +=matched
     return result_string
 
-######################################################
-#######################main##########################
-####################################################
+
+####################### main ##########################
 with np.load(FILE_NAME) as data:
     train = data['train']
     train_labels = data['train_labels']
-
 
 ############ knn ################
 knn = cv2.ml.KNearest_create()
