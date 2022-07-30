@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txtTitle_Gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorControlHighlight"
+            android:text="Gravity"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/txtY_Gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Y: " />
+
+        <TextView
+            android:id="@+id/txtZ_Gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Z: " />
+
+        <TextView
+            android:id="@+id/txtX_Gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txtTitle_Accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="Accelerometer"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/txtX_Accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: " />
+
+        <TextView
+            android:id="@+id/txtY_Accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Y: " />
+
+        <TextView
+            android:id="@+id/txtZ_Accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Z: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txtTitle_LinearAccelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Linear Accelerometer"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/txtX_LinearAcceleration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: " />
+
+        <TextView
+            android:id="@+id/txtY_LinearAcceleration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Y: " />
+
+        <TextView
+            android:id="@+id/txtZ_LinearAcceleration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Z: " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="46dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/txtTitle_Gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:text="Gyroscope"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/txtX_Gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: " />
+
+        <TextView
+            android:id="@+id/txtY_Gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Y: " />
+
+        <TextView
+            android:id="@+id/txtZ_Gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Z: " />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
