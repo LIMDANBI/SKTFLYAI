@@ -8,4 +8,4 @@
 |4주차| **Numpy**, **데이터 시각화**(seaborn, matplotlib, folium), **SQL**, [mimi project](https://github.com/LIMDANBI/SKTFLYAI/tree/main/mini_project/wordcloud_web), **인공지능개론** |2022.07.18.~2022.07.22.| 
 |5주차| **ML with python**(Linear Regression, Decision Tree, Kmeans, Tensorflow, etc.)|2022.07.25.~2022.07.29.|
 |5주차| **딥러닝 with tensorflow** |2022.08.02.~2022.08.05.|
-|6주차| **Android Studio**, [project(v2v)](https://github.com/LIMDANBI/v2v) |2022.08.08.~2022.08.12.|
+|6주차| **Android Studio**, [Project(v2v)](https://github.com/LIMDANBI/v2v) |2022.08.08.~2022.08.12.|
