@@ -5,7 +5,7 @@
 
 ## 1. Python 환경 
 
-![관련 link](https://pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano/)
+[관련 link](https://pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano/)
 
 ```shell
 $ wget https://bootstrap.pypa.io/get-pip.py
