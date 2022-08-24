@@ -10,4 +10,4 @@
 |5주차| **딥러닝 with tensorflow** |2022.08.02.~2022.08.05.|
 |6주차| **Android Studio**, [Project(v2v)](https://github.com/LIMDANBI/v2v) |2022.08.08.~2022.08.12.|
 |7주차| **Simple chatbot**, **Jetson nano**, **AI-900 Microsoft Azure AI Fundamentals 자격증 취득** |2022.08.15.~2022.08.20.|
-|8~9주차| **Hackathon** |2022.08.22.~2022.09.02.|
+|8~9주차| **[Hackathon](https://github.com/VARIOUS-ONE)** |2022.08.22.~2022.09.02.|
