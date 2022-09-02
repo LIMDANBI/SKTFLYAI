@@ -12,4 +12,4 @@
 |7주차| **Simple chatbot**, **Jetson nano**, **AI-900 Microsoft Azure AI Fundamentals 자격증 취득** |2022.08.15.~2022.08.20.|
 |8~9주차| **[Hackathon](https://github.com/VARIOUS-ONE)** |2022.08.22.~2022.09.02.|
 
-![IMG_2987](https://user-images.githubusercontent.com/55095806/188131084-c664335e-7aac-421a-b49b-aa95a9f00b2d.jpg)
+![](https://velog.velcdn.com/images/danbibibi/post/ab804f73-10b9-422a-ad3e-41930f6ec755/image.png)
